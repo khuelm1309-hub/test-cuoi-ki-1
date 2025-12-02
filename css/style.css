@@ -1,0 +1,184 @@
+/* Font chữ */
+.fontchữ {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+* {font-family: "Noto Sans", sans-serif;
+}
+/* khung */
+header {
+    width: 100%;
+    background: #070707;
+    padding: 14px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+nav a {
+    color: rgb(250, 3, 3);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    transition: 0.3s;
+    word-spacing: 8px;
+}
+nav a:hover {
+    color: #ffcc00;
+}
+/* ===== mục lục ===== */
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 120px 0 60px;
+}
+/* ===== Trang chủ ===== */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (12/12 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#gt {
+    text-align: center;
+    padding-top: 160px;
+}
+#gt h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#gt p {
+    color: #555;
+    font-size: 18px;
+}
+/* ===== mục review ===== */
+#review h2 {
+    font-size: 32px;
+    align-items: center;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.review-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    line-height: 1.7;
+}
+.review-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* đk */
+#form {
+  width: 360px;
+  align-content: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+.đk {
+  margin-top: 16px;
+  padding: 12px 26px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  float: right;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.đk:hover {
+  opacity: 0.8;
+}
